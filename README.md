@@ -41,18 +41,20 @@ var tournamentCode = require('lol-tournament-code');
 tournamentCode({name: 'TournamentGame'});
 // => "pvpnet://lol/customgame/joinorcreate/map11/pick6/team5/specDROPINONLY/eyJuYW1lIjoiVG91cm5hbW5ldEdhbWUiLCJleHRyYSI6IiJ9"
 
-### browser
+#### browser
 
 You can either import the .js files or import the .html file
 
-#### HTML Import 
+__HTML Import__
+```html
 <link rel="import" href="bower_components/lol-tournament-code.html">
 <script>
   LoL.tournamentCode({name: 'TournamentGame'});
   // => "pvpnet://lol/customgame/joinorcreate/map11/pick6/team5/specDROPINONLY/eyJuYW1lIjoiVG91cm5hbW5ldEdhbWUiLCJleHRyYSI6IiJ9"
 </script>
-
-#### Script 
+```
+__Script__ 
+```html
 <script src="bower_components/expandjs/dist/expandjs.min.js"></script>
 <script src="bower_components/lol-tournament-code/dist/lol-tournament-code.min.js"></script>
 
@@ -60,7 +62,7 @@ You can either import the .js files or import the .html file
   LoL.tournamentCode({name: 'TournamentGame'});
   // => "pvpnet://lol/customgame/joinorcreate/map11/pick6/team5/specDROPINONLY/eyJuYW1lIjoiVG91cm5hbW5ldEdhbWUiLCJleHRyYSI6IiJ9"
 </script>
-
+```
 ## Documentation
 The generator works based on a configuration object with various options passed to it.
 
