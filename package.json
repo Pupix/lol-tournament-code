@@ -1,0 +1,35 @@
+{
+    "name": "lol-tournament-code",
+    "license": "MIT",
+    "description": "A League of Legends tournament code generator",
+    "version": "1.0.0",
+    "homepage": "https://github.com/Pupix/lol-tournament-code",
+    "author": "Robert Manolea <manolea.robert@gmail.com>",
+    "contributors": [
+        "Robert Manolea <manolea.robert@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pupix/lol-tournament-code.git"
+    },
+    "bugs": {
+        "url" : "https://github.com/owner/project/issues"
+    },
+    "dependencies": {
+        "expandjs": "*"
+    },
+    "devDependencies": {
+        "browserify": "*",
+        "minifyify": "*"
+    },
+    "keywords": [
+        "generator",
+        "league of legends",
+        "lol",
+        "tournament"
+    ],
+    "scripts": {
+        "browserify": "browserify index -i expandjs > dist/lol-tournament-code.js && npm run browserify-min",
+        "browserify-min": "browserify -d index -i expandjs -p [minifyify --map lol-tournament-code.min.map --output dist/lol-tournament-code.min.map] > dist/lol-tournament-code.min.js"
+    }
+}
