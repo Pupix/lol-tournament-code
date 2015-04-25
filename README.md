@@ -29,7 +29,7 @@ opt = {
 }
 
 tournmentCode(opt)
-// => "pvpnet://lol/customgame/joinorcreate/map10/pick6/team5/specDROPINONLY/eyJuY…YzVG91cm5hbWVudCIsImV4dHJhIjoiVGhpcyB3YXMgYW4gYXdlc29tZSB0b3Vybm1hbmV0In0="
+// => "pvpnet://lol/customgame/joinorcreate/map10/pick6/team5/specDROPINONLY/eyJuYâ€¦YzVG91cm5hbWVudCIsImV4dHJhIjoiVGhpcyB3YXMgYW4gYXdlc29tZSB0b3Vybm1hbmV0In0="
 ```
 
 ## Usage
@@ -95,10 +95,10 @@ The maximum number of players allowed for each team in the game to be played. Va
 
 ### opt.spectators
 Option defining if if the game can be spectated or not. Possible values are:
-- __'NONE'__: `Nobody can spectate the game`
-- __'DROPINONLY'__: `Only members of the lobby can spectate the game`
-- __'FRIENDS'__: `Only friends of the players can spectate the game`
-- __'ALL'__: `Everybody can spectate the game`
+- __NONE__: `Nobody can spectate the game`
+- __DROPINONLY__: `Only members of the lobby can spectate the game`
+- __FRIENDS__: `Only friends of the players can spectate the game`
+- __ALL__: `Everybody can spectate the game`
 
 ### opt.report
 An URL where to receive a game report after the game is over.
