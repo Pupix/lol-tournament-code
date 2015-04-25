@@ -30,6 +30,7 @@ opt = {
 
 tournmentCode(opt)
 // => "pvpnet://lol/customgame/joinorcreate/map10/pick6/team5/specDROPINONLY/eyJuY…YzVG91cm5hbWVudCIsImV4dHJhIjoiVGhpcyB3YXMgYW4gYXdlc29tZSB0b3Vybm1hbmV0In0="
+```
 
 ## Usage
 
