@@ -41,7 +41,7 @@ var tournamentCode = require('lol-tournament-code');
 tournamentCode({name: 'TournamentGame'});
 // => "pvpnet://lol/customgame/joinorcreate/map11/pick6/team5/specDROPINONLY/eyJuYW1lIjoiVG91cm5hbW5ldEdhbWUiLCJleHRyYSI6IiJ9"
 ```
-### browser
+#### browser
 
 You can either import the .js files or import the .html file
 
