@@ -1600,7 +1600,7 @@ module.exports = require('./lib');
          * The list of available game types
          *
          * 1: Blind Pick
-         * 2: Draft Mode=
+         * 2: Draft Mode
          * 4: All Random
          * 6: Tournament Draft
          *
@@ -1639,9 +1639,9 @@ module.exports = require('./lib');
      *  @param {String} [opt.password = ''] - The password of the lobby
      *  @param {Number} [opt.map = 11] - The ID of the map to be played
      *  @param {Number} [opt.type = 6] - The game type of the game to be played
-     *  @param {Number} [opt.teamSize = 5] - The size of the teams
+     *  @param {Number} [opt.size = 5] - The size of the teams
      *  @param {String} [opt.spectators = 'DROPINONLY] - Which persons can spectate the game
-     *  @param {String} [opt.reportURL] - URL where to receive a report info after the game is over
+     *  @param {String} [opt.report] - URL where to receive a report info after the game is over
      *  @param {String} [opt.extra = ''] - Any extra details to be sent to the reportURL
      * @returns string
      * @throws
@@ -1658,7 +1658,7 @@ module.exports = require('./lib');
         //Assigning
         opt.map      = XP.includes(maps, XP.toNumber(opt.map)) ? opt.map : 11;
         opt.type     = XP.includes(types, XP.toNumber(opt.type)) ? opt.type : 6;
-        opt.teamSize   = XP.includes(sizes, XP.toNumber(opt.teamSize)) ? opt.teamSize : 5;
+        opt.size   = XP.includes(sizes, XP.toNumber(opt.size)) ? opt.size : 5;
         opt.spectators = XP.includes(spectators, opt.spectators) ? opt.spectators : 'DROPINONLY';
         opt.extra      = opt.extra || '';
 
@@ -1674,7 +1674,7 @@ module.exports = require('./lib');
         //Creating
         code = 'pvpnet://lol/customgame/joinorcreate/map' + opt.map +
                 '/pick' + opt.type +
-                '/team' + opt.teamSize +
+                '/team' + opt.size +
                 '/spec' + opt.spectators +
                 '/' + encoded;
 
