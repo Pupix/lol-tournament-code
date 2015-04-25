@@ -74,31 +74,31 @@ The password of the lobby, it's recommended to set one so random players don't a
 
 ### opt.map
 The map ID where the game will be played, it defaults to the new Summoner's Rift. Possible IDs are the following:
-__1__: `Summoner's Rift (Summer)`
-__2__: `Summoner's Rift (Autumn)`
-__3__: `Proving Grounds`
-__4__: `Twisted Treeline`
-__8__: `Crystal Scar`
-__10__: `Twisted Treeline (New)`
-__11__: `Summoner's Rift (New)`
-__12__: `Howling Abyss`
+- __1__: `Summoner's Rift (Summer)`
+- __2__: `Summoner's Rift (Autumn)`
+- __3__: `Proving Grounds`
+- __4__: `Twisted Treeline`
+- __8__: `Crystal Scar`
+- __10__: `Twisted Treeline (New)`
+- __11__: `Summoner's Rift (New)`
+- __12__: `Howling Abyss`
 
 ### opt.type
 The game type to be palyed, it defaults to `Tournament Draft`. Possible IDs are the following:
-__1__: `Blind Pick`
-__2__: `Draft Mode`
-__4__: `All Random`
-__6__: `Tournament Draft`
+- __1__: `Blind Pick`
+- __2__: `Draft Mode`
+- __4__: `All Random`
+- __6__: `Tournament Draft`
 
 ### opt.size
 The maximum number of players allowed for each team in the game to be played. Valid values are from `1` throgh `5`.
 
 ### opt.spectators
 Option defining if if the game can be spectated or not. Possible values are:
-__'NONE'__: `Nobody can spectate the game`
-__'DROPINONLY'__: `Only members of the lobby can spectate the game`
-__'FRIENDS'__: `Only friends of the players can spectate the game`
-__'ALL'__: `Everybody can spectate the game`
+- __'NONE'__: `Nobody can spectate the game`
+- __'DROPINONLY'__: `Only members of the lobby can spectate the game`
+- __'FRIENDS'__: `Only friends of the players can spectate the game`
+- __'ALL'__: `Everybody can spectate the game`
 
 ### opt.report
 An URL where to receive a game report after the game is over.
