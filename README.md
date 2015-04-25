@@ -4,7 +4,7 @@ This is an utility module that allows the creation of custom games for tournamen
 ## Download
 lol-tournament-code is installable via:
 
-- [GitHub]((https://github.com/Pupix/lol-tournament-code) `git clone https://github.com/Pupix/lol-tournament-code.git`
+- [GitHub](https://github.com/Pupix/lol-tournament-code) `git clone https://github.com/Pupix/lol-tournament-code.git`
 - [bower](http://bower.io/): `bower install lol-tournament-code`
 - [npm](https://www.npmjs.com/): `npm install lol-tournament-code`
 
