@@ -69,10 +69,10 @@ The generator works based on a configuration object with various options passed 
 ### opt.name
 This is the name of the lobby that will be shows in the custom games list. This is only required option.
 
-### opt.password
+### opt.password (Default: '')
 The password of the lobby, it's recommended to set one so random players don't access your lobby via the `Custom Game` iterface of the game client.
 
-### opt.map
+### opt.map (Default: 11)
 The map ID where the game will be played, it defaults to the new Summoner's Rift. Possible IDs are the following:
 - __1__: `Summoner's Rift (Summer)`
 - __2__: `Summoner's Rift (Autumn)`
@@ -83,17 +83,17 @@ The map ID where the game will be played, it defaults to the new Summoner's Rift
 - __11__: `Summoner's Rift (New)`
 - __12__: `Howling Abyss`
 
-### opt.type
+### opt.type (Default: 6)
 The game type to be palyed, it defaults to `Tournament Draft`. Possible IDs are the following:
 - __1__: `Blind Pick`
 - __2__: `Draft Mode`
 - __4__: `All Random`
 - __6__: `Tournament Draft`
 
-### opt.size
+### opt.size (Default: 5)
 The maximum number of players allowed for each team in the game to be played. Valid values are from `1` throgh `5`.
 
-### opt.spectators
+### opt.spectators (Default: 'DROPINONLY')
 Option defining if if the game can be spectated or not. Possible values are:
 - __NONE__: `Nobody can spectate the game`
 - __DROPINONLY__: `Only members of the lobby can spectate the game`
@@ -103,5 +103,5 @@ Option defining if if the game can be spectated or not. Possible values are:
 ### opt.report
 An URL where to receive a game report after the game is over.
 
-### opt.extra
+### opt.extra (Default: '')
 Any message you may want to be appended to the game report that will be sent.
