@@ -2,7 +2,7 @@
     "name": "lol-tournament-code",
     "license": "MIT",
     "description": "A League of Legends tournament code generator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/Pupix/lol-tournament-code",
     "author": "Robert Manolea <manolea.robert@gmail.com>",
     "contributors": [
@@ -16,7 +16,7 @@
         "url" : "https://github.com/owner/project/issues"
     },
     "dependencies": {
-        "expandjs": "*"
+        "expandjs": "0.10.0"
     },
     "devDependencies": {
         "browserify": "*",
