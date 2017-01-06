@@ -1,7 +1,7 @@
 {
     "name": "lol-tournament-code",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A League of Legends tournament code generator",
     "authors": [
         "Robert Manolea <manolea.robert@gmail.com>"
