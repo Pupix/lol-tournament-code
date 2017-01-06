@@ -1,13 +1,13 @@
 {
     "name": "lol-tournament-code",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A League of Legends tournament code generator",
     "authors": [
         "Robert Manolea <manolea.robert@gmail.com>"
     ],
     "main": [
-        "xp-request.html"
+        "lol-tournament-code.html"
     ],
     "keywords": [
         "generator",
@@ -16,6 +16,6 @@
         "tournament"
     ],
     "dependencies": {
-        "expandjs": "ExpandJS/expandjs"
+        "expandjs": "ExpandJS/expandjs#0.10.0"
     }
 }
