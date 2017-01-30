@@ -1,3 +1,7 @@
+#🚨🚨🚨 Not working due to new client release! 🚨🚨🚨
+
+---
+
 # lol-tournament-code
 This is an utility module that allows the creation of custom games for tournament purposes. It provides the possibility to receive the in game statistics, after the game has eneded, to a specified URL.
 
